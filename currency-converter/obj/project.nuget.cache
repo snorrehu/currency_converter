@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2Q/EpdyPMsbZfi7Yguv3oB4eREUUcotOEjNZUNfyG145v8noTPpfEfqF+20pySOGCj5bEanppLuB7K7Xru2YCg==",
+  "dgSpecHash": "8n7RZwpbFYwddXhlRPBWH0UJroFU7IMBwXsJpZ+tTn8hSGNSWRfxWMFLylLwTxzFlWItgFfGRDhbAAbx6qlUxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\snorre.hukkelas\\Documents\\Dev\\geodata\\currency-converter\\currency-converter\\currency-converter.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
+    "C:\\Users\\snorre.hukkelas\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

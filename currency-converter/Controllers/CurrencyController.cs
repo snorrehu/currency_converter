@@ -16,8 +16,9 @@ namespace currency_converter.Controllers
     [ApiController]
     public class CurrencyController : Controller
     {
-
-        // GET: api/Currency/5
+        // I convert between currencies. 
+        // I only work with EUR as base currency for now. 
+        // I could really use some error handling.
         [Route("{baseCurrency}/{endCurrency}/{amount}/{date?}")]
         public double Get(string baseCurrency, string endCurrency, int amount, string? date =null)
         {
@@ -29,32 +30,16 @@ namespace currency_converter.Controllers
                
                 responseTask.Wait();
                 var result = responseTask.Result;
-                if (result.IsSuccessStatusCode)
-                {
-                    var readTask = result.Content.ReadAsAsync<Models.RateModel>();
-                    readTask.Wait();
+                var readTask = result.Content.ReadAsAsync<Models.RateModel>();
+                readTask.Wait();
 
-                    rate = readTask.Result;
-                }
-                else //web api sent error response 
-                {
-                    //log response status here..
-
-                    return 0;
-
-                }
+                rate = readTask.Result;
+                
             }
 
             return Convert.ToDouble(rate.Rates[0]) * amount;
         }
         
-
-        // GET: api/Currency/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
 
     }
 }

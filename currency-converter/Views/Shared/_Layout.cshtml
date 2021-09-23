@@ -47,7 +47,7 @@
             to = document.getElementById("endCurrency").value
             amount = document.getElementById("amount").value
             date = document.getElementById("date").value
-            $.get("https://localhost:49159/api/Currency/" + from + "/" + to + "/" + amount + "/" + date, function (data, status) {
+            $.get("https://localhost:49161/api/Currency/" + from + "/" + to + "/" + amount + "/" + date, function (data, status) {
                 alert(amount + from + " = " + data + to);
             });
         });
